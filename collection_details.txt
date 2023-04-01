@@ -1,0 +1,214 @@
+20/08/2022
+
+
+Theater_ticket
+
+movie: contains name and id of the movie.
+ticket: contains details of the ticket including registration mode and price.
+theater: contains details of theater name and id.
+seat: contains number of seats booked through ticket.
+screen: contains screen details of a theater like screen number and show time.
+date: contains release and end date of  a movie in a theater.
+
+//ticket
+db.ticket_details.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		number_of_seats: 10,
+		total_price:2000,
+		todays_date:Date(2022-08-07),
+		mov_name:"The Gray Man",
+		theat_name:"PVR",
+		screennum:2,
+		show_time:"21:43"
+	})
+
+	db.ticket_details.insert(
+	{
+		ticket_id: 12345,
+		register_mode: "online",
+		number_of_seats: 15,
+		total_price:2500,
+		todays_date:Date(2022-09-07),
+		mov_name:"KGF-Chapter:1",
+		theat_name:"PVR",
+		screennum:3,
+		show_time:"20:43"
+	})
+
+//theatre
+db.theatre_details.insert(
+	{
+		theater_id: 123,
+		theater_name: "PVR",
+		location: "Madurai",
+		screen_num:3
+)
+db.theatre_details.insert(
+	{
+		theater_id: 1234,
+		theater_name: "PVR",
+		location: "Chennai",
+		screen_num:2
+)
+
+//movie
+db.movie_details.insert(
+	{
+		movie_id: 12,
+		movie_name:"The Gray Man",
+		main_cast:"Ryan Gosling",
+		language: ["English","Tamil","Hindi"],
+		genres : "Action",
+		mode : "Normal",
+		movie_release_date: Date(2022-07-22)
+	})
+db.movie_details.insert(
+	{
+		movie_id: 123,
+		movie_name:"KGF-Chapter:1",
+		main_cast:"Yash",
+		language: ["English","Tamil","Hindi"],
+		genres : "Action",
+		mode : "Normal",
+		movie_release_date: Date(2022-09-22)
+	})
+
+---------------------------------------------
+new relation:
+
+***lookup:: 
+			release_date__todaysdate
+			main_cast_acted_movies
+			past_5years_details
+			online_mode_entry
+			mode_view_entry
+			each_genre_movie_available
+			movie_available_on_different_language
+
+.............................................
+
+			1.past_5years_details--->each_genre_movie_available----->sum no_of_seats---->list desc order
+			2.language-movie-ticket(no_of_seats)----->2nd_desc_sort_eleme
+			3.mode_view_entry-->hign price
+			4.movie_release_date==todaysdate---->cast_match-<------>more_no_of_seats
+			
+---------------------------------------------
+
+1) For which genre movie more number of seats are booked around past 5 years?
+db.movie.aggregate([
+	{
+		$lookup:{from:'ticket', localField:'mv_id',foreignField:'movie_id', as:'Ticketdetails'}
+
+	},
+	{
+		$unwind: "$Ticketdetails"
+	},
+	{
+		$group:{_id: "$movie_id", TotalCountSeats:{$sum:{"$Ticketdetails.no_of_seats"}}}
+	},
+	{
+		$sort:{TotalCountSeats:-1}
+	},
+	{
+		$limit:2
+	}
+]).pretty()
+
+2) Which language is most welcomed in India apart from its local language?
+3) For which mode of movie more revenue been reached around past 5 years?
+4) Match the cast details for whom maximum number of seats and revenue been reached on the first day of movie release for past 5 years.
+
+
+5) For past 5 years list total revenue earned through online mode.
+db.ticket.aggregate([
+	{
+		$match:{}
+	}
+	{
+		$group:{_id:"register_mode", total_revenue:{$sum:"tot_price"}}
+	}
+]) 
+---------------------------------------------
+Q1) List out user who booked seats online for more than 500/-
+Q2) List the cart details of user who reserved seats for past 5 years.
+Q3) List out movie name with maxinum reservation seats
+Q4) List out the total price for all user reserved seats in royal theater with user details
+Q5) List the 5 movie gerne that hit more revenue in the royal theater past 5 years.
+Q6) For past 5 years list the movie genre which hit more revenue.
+Q7) List out english movies released in India and hit more revenue.
+Q8) List the movies that earned more revenue in minimum number of days and sort them in ascending order.
+Q9) Group the movie for which maximum number of seats filled in theaters all over India and sort them in descending order.
+Q10) Group by cities, which genre movie hits more revenue in that city for past 5 years.
+Q11) Group by show time for high revenue genre movie for which maximum number of seats where filled.
+Q12) Match the cast details for whom maximum number of seats been filled on the first day of movie release for past 5 years.
+Q13) List out the movie genre that hit high revenue where location of theater differ from language over there.
+Q14) For past 5 years list total number of seats booked through online mode.
+Q15) In which season(month) more number of seats where booked and sort them in descending order.
+--------------------------------------------
+
+
+Q1) List out user who booked seats online for more than 500/-
+db.ticket.find({register_mode:{$eq:"online"},tot_price:{$gt:500}},{ticket_id:1,register_mode:1,tot_price:1,date:1,mv_id:1,_id:0})
+----
+> db.ticket.find({register_mode:{$eq:"online"},tot_price:{$gt:500}},{ticket_id:1,register_mode:1,tot_price:1,date:1,mv_id:1,_id:0}).pretty()
+{
+        "ticket_id" : 1234,
+        "register_mode" : "online",
+        "tot_price" : 2000,
+        "date" : "Sat Aug 20 2022 21:14:34 GMT+0530 (India Standard Time)",
+        "mv_id" : 12
+}
+-------
+Q2) List the cart details of user who reserved seats for past 5 years.
+
+-------
+> use Theater_ticket
+switched to db Theater_ticket
+> show collections
+movie
+ticket
+> db.movie.drop()
+true
+> db.ticket.drop()
+true
+> db.createCollection("movie")
+{ "ok" : 1 }
+> db.movie.insert(
+... {
+... movie_id: 12,
+... movie_name:"The Gray Man",
+... cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+... language: ["English","Tamil","Hindi"],
+... genres : ["Thriller","Action","Adventure","Mystery"],
+... movie_release_date: Date(2022-07-22)
+... })
+WriteResult({ "nInserted" : 1 })
+> db.createCollection("ticket")
+{ "ok" : 1 }
+> db.ticket.insert( { ticket_id: 1234, register_mode: "online", no_of_seats: 10, tot_price:2000, date:Date(2022-08-07), mv_id:12, theater_details: { th_id:123, th_name:"PVR", screen_details: { screen_no:1, showtime:"10PM",movie_release_date: Date(2022-07-22), movie_release_date: Date(2022-08-22),  }  } })
+WriteResult({ "nInserted" : 1 })
+> db.ticket.find().pretty()
+{
+        "_id" : ObjectId("63010162cfe913c403c9eac0"),
+        "ticket_id" : 1234,
+        "register_mode" : "online",
+        "no_of_seats" : 10,
+        "tot_price" : 2000,
+        "date" : "Sat Aug 20 2022 21:14:34 GMT+0530 (India Standard Time)",
+        "mv_id" : 12,
+        "theater_details" : {
+                "th_id" : 123,
+                "th_name" : "PVR",
+                "screen_details" : {
+                        "screen_no" : 1,
+                        "showtime" : "10PM",
+                        "movie_release_date" : "Sat Aug 20 2022 21:14:34 GMT+0530 (India Standard Time)"
+                }
+        }
+}
+> db.movie.find({movie_name:"The Gray Man"})
+{ "_id" : ObjectId("63010152cfe913c403c9eabf"), "movie_id" : 12, "movie_name" : "The Gray Man", "cast" : [ "Ryan Gosling", "Ana de Armas", "Chris Evans", "Dhanush" ], "language" : [ "English", "Tamil", "Hindi" ], "genres" : [ "Thriller", "Action", "Adventure", "Mystery" ], "movie_release_date" : "Sat Aug 20 2022 21:14:18 GMT+0530 (India Standard Time)" }
+> db.movie.find({movie_name:"The Gray Man"},{movie_name:1,_id:0,cast:1})
+{ "movie_name" : "The Gray Man", "cast" : [ "Ryan Gosling", "Ana de Armas", "Chris Evans", "Dhanush" ] }
