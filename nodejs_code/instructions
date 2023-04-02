@@ -1,0 +1,4 @@
+1.unzip
+2.move into the directory
+3.npm i (in terminal)
+3.node index.js (to run server)

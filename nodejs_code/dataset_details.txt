@@ -1,0 +1,810 @@
+//ticket
+db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})
+db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})db.ticket.insert(
+	{
+		ticket_id: 1234,
+		register_mode: "online",
+		no_of_seats: 10,
+		tot_price:2000,
+		date:{dd:07,mm:08,yyyy:2022,day:"Sunday"},
+		mv_id:12,
+		theater_details:
+		{
+			th_id:123,
+			th_name:"PVR",
+			screen_details:
+			{
+				screen_no:1,
+				showtime:"10PM",
+				movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"},
+				movie_end_date:{dd:22,mm:08,yyyy:2022,day:"Monday"}
+			}
+		 }
+	})
+
+//movie
+db.movie.insert(
+	{
+		movie_id: 17,
+		movie_name:"K.G.F: Chapter 1",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2018,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Saaho",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2019,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Pushpa: The Rise",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"RRR",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"The Gray Man",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"2.0",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2018,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Radhe Shyam",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Avengers: Infinity War",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2018,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Sanju",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2018,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Padmaavat",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2018,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Spider-Man: Into The Spider-Verse",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2018,day:"Friday"}
+	})	
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Deadpool 2",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2018,day:"Friday"}
+	})	
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Mission: Impossible - Fallout",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2018,day:"Friday"}
+	})	
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Toy Story 4",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2019,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Avengers: Endgame",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2019,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Spider-Man: Far From Home",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2019,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Spies In Disguise",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2019,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Chhichhore",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2019,day:"Friday"}
+	})	
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Gunjan Saxena: The Kargil Girl",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2020,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Chhapaak",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2020,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"SOORARAI POTTRU",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2020,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Kannum Kannum Kollaiyadithaal",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2020,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Tenet",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2020,day:"Friday"}
+	})	
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Jai Bhim",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Tenet",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Dune",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Tenet",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Shang-Chi and The Legend of The Ten Rings",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"No Time to Die",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"83",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Free Guy",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"The Matrix Resurrections",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Spider-Man: No Way Home",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})	
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Mandela",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Kadaisi Vivasayi",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})	
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Maanaadu",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})	
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Sarpatta Parambarai",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2021,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Vikram",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Rocketry: The Nambi Effect",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"The Batman",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"The Gray Man",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Doctor Strange in the Multiverse of Madness",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Shabaash Mithu",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"The Adam Project",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})
+db.movie.insert(
+	{
+		movie_id: 12,
+		movie_name:"Mahaan",
+		cast:["Ryan Gosling","Ana de Armas","Chris Evans","Dhanush"],
+		language: ["English","Tamil","Hindi"],
+		genres : ["Thriller","Action","Adventure","Mystery"],
+		movie_release_date:{dd:22,mm:07,yyyy:2022,day:"Friday"}
+	})	

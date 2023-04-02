@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE THEATRE ANALYSIS</title>
+    <style type="text/css">
+      body {
+          background-color: rgb(101, 17, 226);
+          border: 5px solid rgb(255, 0, 170);
+          border-inline-style: dashed;
+       }
+       h3 {
+          background-color: white;
+          border: 5px solid rgb(199, 9, 229);
+          border-inline-style: dashed;
+          text-align: center;
+       }
+       button {
+          background-color: white;
+          border: 5px solid rgb(252, 46, 218);
+          border-inline-style: dashed;
+          font-size:medium;
+       }
+       .des {
+          color: rgb(244, 241, 241);
+          text-align: center;
+          font-size:larger;
+       }
+    </style>
+</head>
+<body>
+  <form method="post" action="/register1">
+    <h3>MOVIE DETAILS</h3>
+          <div class="des">
+            <label for="" class="form-label">Movie Id:</label>
+            <input type="text" class="form-control" name="movie_id" id="">
+          </div><br>
+          <div class="des">
+            <label for="" class="form-label">Movie Name:</label>
+            <input type="text" class="form-control" name="movie_name" id="">
+          </div><br>
+          <div class="des">
+            <label for="" class="form-label"> Main Cast </label>
+            <input type="text" class="form-control" name="main_cast" id="">
+          </div><br>
+          <div class="des">
+            <label for="" class="form-label">Language</label>
+            <input type="checkbox" name="language" id="tamil" value="tamil"><label class="form-label">Tamil</label>
+            <input type="checkbox" name="language" id="english" value="english"><label class="form-label">English</label>
+            <input type="checkbox" name="language" id="hindi" value="hindi"><label class="form-label">Hindi</label>
+            <input type="checkbox" name="language" id="telugu" value="telugu"><label class="form-label">Telugu</label>
+          </div><br>
+          <div class="des">
+            <label for="" class="form-label">Genres</label>
+            <select name="genres" id="genres">
+              <option value="thriller">Thriller</option>
+              <option value="action">Action</option>
+              <option value="adventure">Adventure</option>
+              <option value="mystery">Mystery</option>
+              <option value="romantic">Romantic</option>
+            </select>
+          </div><br>
+          <div class="des">
+              <label for="" class="form-label">Mode :</label>
+            <input type="radio" name="mode" id="normal" value="normal"><label for="" class="form-label">Normal</label>
+            <input type="radio" name="mode" id="animation" value="animation"><label for="" class="form-label">Animation</label>
+            <input type="radio" name="mode" id="3d" value="3d"><label for="" class="form-label">3-D</label>
+          </div><br>
+          <div class="des">
+            <label for="start">Movie Release Date:</label>
+            <input type="date" id="movie_release_date" name="movie_release_date"
+           value="2022-10-19"
+           min="1945-01-01" max="2022-12-31">
+          </div><br>
+      <div class="des">
+      <button type="submit">SUBMIT</button> 
+      <br><br>
+       
+  </form>
+  
+  
+</body>
+</html>

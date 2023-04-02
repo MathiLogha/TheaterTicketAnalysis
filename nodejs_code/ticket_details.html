@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE THEATRE ANALYSIS</title>
+    <style type="text/css">
+      body {
+          background-color: rgb(101, 17, 226);
+          border: 5px solid rgb(255, 0, 170);
+          border-inline-style: dashed;
+       }
+       h3 {
+          background-color: white;
+          border: 5px solid rgb(199, 9, 229);
+          border-inline-style: dashed;
+          text-align: center;
+       }
+       button {
+          background-color: white;
+          border: 5px solid rgb(252, 46, 218);
+          border-inline-style: dashed;
+          font-size:medium;
+       }
+       .des {
+          color: rgb(244, 241, 241);
+          text-align: center;
+          font-size:larger;
+       }
+    </style>
+</head>
+<body>
+  <form method="post" action="/register2">
+    <h3>TICKET DETAILS</h3>
+    <div class="des">
+      <label for="" class="form-label">Ticket Id:</label>
+      <input type="text" class="form-control" name="ticket_id" id="">
+    </div><br>
+    <div class="des">
+        <label for="" class="form-label">Register Mode :</label>
+      <input type="radio" name="register_mode" id="online" value="online"><label for="" class="form-label">Online</label>
+      <input type="radio" name="register_mode" id="offline" value="offline"><label for="" class="form-label">Offline</label>
+    </div><br>
+    <div class="des">
+      <label for="" class="form-label">Number of Seats : </label>
+      <input type="text" class="form-control" name="number_of_seats" id="">
+    </div><br>
+    <div class="des">
+      <label for="" class="form-label">Total Price : </label>
+      <input type="text" class="form-control" name="total_price" id="">
+    </div><br>
+    <div class="des">
+      <label for="start">Today's Date:</label>
+      <input type="date" id="today's_date" name="todays_date"
+     value="2022-10-19"
+     min="1945-01-01" max="2022-12-31">
+    </div><br>
+    <div class="des">
+      <label for="" class="form-label">Movie Name : </label>
+      <input type="text" class="form-control" name="mov_name" id="">
+    </div><br>
+    <h3>Theatre Details : </h3>
+    <div class="des">
+      <label for="" class="form-label">Theatre Name : </label>
+      <input type="text" class="form-control" name="theat_name" id="">
+    </div><br>
+    <h3>Screen Details : </h3>
+    <div class="des">
+      <label for="" class="form-label">screen number</label>
+      <input type="checkbox" name="screennum" id="one" value="one"><label class="form-label">1</label>
+      <input type="checkbox" name="screennum" id="two" value="two"><label class="form-label">2</label>
+      <input type="checkbox" name="screennum" id="three" value="three"><label class="form-label">3</label>
+      <input type="checkbox" name="screennum" id="four" value="four"><label class="form-label">4</label>
+      <input type="checkbox" name="screennum" id="five" value="five"><label class="form-label">5</label>
+    </div><br>
+    <div class="des">
+        <label for="show_time">Show Time :</label>
+      <input type="time" id="show_time" name="show_time"
+      min="06:00am" max="11:00pm" required>
+    </div><br>
+      <div class="des">
+      <button type="submit">SUBMIT</button> 
+      <br><br>
+       
+  </form>
+  
+  
+</body>
+</html>
